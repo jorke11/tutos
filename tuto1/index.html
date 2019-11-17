@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/product">
+        <input type="number" name="entrada1" id="entrada1" placeholder="entrada1"><br />
+        <input type="number" name="entrada2" id="entrada2" placeholder="entrada2"><br />
+
+        <select name="" id="operations">
+                <option value="+">Suma</option>
+                <option value="-">Resta</option>
+                <option value="*">Multiplcación</option>
+        </select>
+        <br /> 
+        <br /> 
+        <h2>Resultado</h2>
+        <textarea name="" id="resultado" cols="30" rows="5"></textarea>
+        <div>
+            <button type="button" id="btn_send">Enviar</button>
+        </div>
+    </form>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
