@@ -1,0 +1,144 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+}
+header{
+  
+}
+header .bg-white{
+  height: 90px;
+  left:91px;
+  width: 100%;
+}
+header img{
+  width: 340px;
+  height: 85px;
+}
+header .lis a{
+  display: flex;
+  justify-content: center;
+}
+header .lis a i{
+  color: #95be22c0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight:900;
+  padding-right: 5px;
+}
+header .lis{
+  display: flex;
+  justify-content: center;
+  height: 35px;
+}
+header nav ul{
+  display: flex;
+  height: 35px;
+}
+header .bott a{
+  background-color: #95be22c0;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+header .bott a i{
+  margin-right: 5px;
+}
+.carousel-control-prev, .carousel-control-next{
+  filter: invert(80%);
+  -webkit-filter: invert(80%);
+}
+
+.acerca{
+  background-image: url(img/nosotros_bk.png);
+  background-size: cover;
+  background-repeat:no-repeat ;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.nosot{
+  position: relative;
+  width: 100%;
+}
+.nosot a{
+  position: absolute;
+  bottom: 40px;
+  right: 90px;
+}
+.grafic img{
+  width: 250px;
+  height: 150px;
+}
+.inf .card{
+  border: 0px;
+}
+.im{
+  width: 100%;
+  height: 500px;
+  background-image: url(img/bg_diez\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.im .col-2 {
+  background-color: rgba(118, 104, 180, 0.8);
+  width: 80px;
+  height: 60%;
+  bottom: -3px;
+  right: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exito img{
+  width: 45px;
+}
+.exito p{
+  line-height: 2.0;
+}
+.color-titulo{
+  color: #95be22c0;
+}
+.car-porta{
+  height: 400px;
+  width: 100%;
+  border: 0px;
+  position: relative;
+}
+.img-car img{
+  width: 350px;
+  position: absolute;
+  bottom: 0px; 
+  left: 250px;
+}
+.car-bo{
+  width: 700px;
+  height: 300px;
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
+}
+.car-bo h5, p, a{
+  display: flex;
+  align-items: center;
+}
+.car-2{
+  position: absolute;
+  left: 280px;
+  top: 50px;
+  text-align: end;
+}
+.Respons img{
+  width: 100px;
+}
